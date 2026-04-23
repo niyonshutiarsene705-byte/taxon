@@ -1,0 +1,75 @@
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  width: 200px;
+}
+
+.weather-card {
+  background-color: #111;
+  border: 2px solid red;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #200;
+  margin: 10px 0;
+}
+
+.loading {
+  color: red;
+  font-size: 18px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+  }
+}
+
